@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBRIGADO-PELA-MENSAGEM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100dvh;
+            background-color: #2020ff;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 2%;
+            margin: auto;
+            width: 90%;
+            height: 80%;
+            flex-wrap: wrap;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            width: 100%;
+            font-size: 1.8rem;
+            font-family: 'Caveat' ;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+        .return-btn, a {
+            color: #fff;
+            background-image: linear-gradient(180deg,#0404c4 , #2020ff, #0404c4);
+            text-decoration: none;
+            padding: 6px ;
+            border: none;
+            width: 30%;
+            height: 3rem;
+            border-radius: 48px;
+            font-weight: 700;
+            font-family: "Caveat";
+            font-size: 1.2rem;    
+            margin-top: 2.2rem;
+        }
+        @media screen and (max-width:650px) {
+            .return-btn, a{
+                width: 90%;
+                margin-top: 3rem;
+            }
+            h1{
+                margin-bottom: 5rem ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Obrigado Por Enviar Sua Mensagem &#9825; </h1>
+        <h2>Fique Atento Posso Te Dar o Retorno Em Breve!</h2>
+        <button class="return-btn"><a href="http://127.0.0.1:5500/required-teste/index.html">&#9825; CLIQUE PARA VOLTAR...</a></button>
+    </div>
+</body>
+
+</html>
